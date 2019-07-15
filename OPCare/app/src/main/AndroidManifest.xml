@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uhghackathon">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="UHGHackathon"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ActivityExtraApptInfoF"
+            android:label="@string/title_activity_extra_appt_info_f"></activity>
+        <activity
+            android:name=".ActivityEditInfoF"
+            android:label="@string/title_activity_edit_info_f" />
+        <activity
+            android:name=".ActivityChooseAppointmentF"
+            android:label="@string/title_activity_choose_appointment_f" />
+        <activity
+            android:name=".ActivityCancelledPageF"
+            android:label="@string/title_activity_canceled_page_f" />
+        <activity
+            android:name=".AppointmentReasonsF"
+            android:label="@string/title_activity_appointment_reasons_f" />
+        <activity android:name=".CancelledPage" />
+        <activity android:name=".EditInfo" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AccountPage" />
+        <activity android:name=".PersonalInfo" />
+        <activity android:name=".WaitTime" />
+        <activity android:name=".ScheduledAppointments" />
+        <activity android:name=".PreCheck" />
+        <activity android:name=".extra_appt_info" />
+        <activity android:name=".appointment_reasons" />
+        <activity android:name=".choose_appointment" />
+    </application>
+
+</manifest>

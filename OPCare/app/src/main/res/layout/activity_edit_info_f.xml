@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditInfo">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".EditInfo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="31dp">
+
+        <TextView
+            android:id="@+id/firstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="188dp"
+            android:text="@string/first_name"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/lastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/last_name2"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/firstName"
+            app:layout_constraintTop_toBottomOf="@+id/firstName" />
+
+        <TextView
+            android:id="@+id/dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/date_of_birth"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/lastName"
+            app:layout_constraintTop_toBottomOf="@+id/lastName" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/emailnew"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/dob"
+            app:layout_constraintTop_toBottomOf="@+id/dob" />
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/gender"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="@+id/email"
+            app:layout_constraintTop_toBottomOf="@+id/email" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="92dp"
+            android:layout_marginLeft="92dp"
+            android:layout_marginTop="92dp"
+            android:layout_marginEnd="92dp"
+            android:layout_marginRight="92dp"
+            android:text="@string/edit_personal_information"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/i_first_name"
+            android:layout_width="160dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/peter"
+            app:layout_constraintBottom_toBottomOf="@+id/firstName"
+            app:layout_constraintStart_toEndOf="@+id/firstName" />
+
+        <EditText
+            android:id="@+id/i_last_name"
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/parker"
+            app:layout_constraintBottom_toBottomOf="@+id/lastName"
+            app:layout_constraintStart_toEndOf="@+id/lastName" />
+
+        <EditText
+            android:id="@+id/i_email"
+            android:layout_width="191dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text="@string/spiderpig_optum_com"
+            app:layout_constraintBottom_toBottomOf="@+id/email"
+            app:layout_constraintStart_toEndOf="@+id/email" />
+
+        <EditText
+            android:id="@+id/i_dob"
+            android:layout_width="160sp"
+            android:layout_height="46dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:inputType="date"
+            android:text="@string/_09_27_1941"
+            app:layout_constraintBottom_toBottomOf="@+id/dob"
+            app:layout_constraintStart_toEndOf="@+id/dob" />
+
+        <EditText
+            android:id="@+id/i_gender"
+            android:layout_width="160sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/male"
+            app:layout_constraintBottom_toBottomOf="@+id/gender"
+            app:layout_constraintStart_toEndOf="@+id/gender" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="161dp"
+            android:layout_marginLeft="161dp"
+            android:layout_marginTop="29dp"
+            android:background="#789A69"
+            android:text="@string/submit"
+            android:textColor="#FFFFFF"
+            android:onClick="submit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/i_gender" />
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#FCAE00"
+            app:itemIconTint="#FFFFFF"
+            app:labelVisibilityMode="unlabeled"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:menu="@menu/navigation" />
+
+</android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
