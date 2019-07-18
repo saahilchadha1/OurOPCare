@@ -138,7 +138,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginLeft="8dp"
-            android:text="@string/spiderpig_optum_com"
+            android:text="@string/spiderpig_op_com"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="@+id/email"
             app:layout_constraintStart_toEndOf="@+id/email" />

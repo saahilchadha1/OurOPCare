@@ -1,4 +1,4 @@
-package com.example.uhghackathon;
+package com.example.hackathon;
 
 import android.accounts.Account;
 import android.content.Context;

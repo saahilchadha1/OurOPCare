@@ -84,7 +84,7 @@
         android:layout_marginTop="146dp"
         android:layout_marginBottom="49dp"
         android:text="7 Minutes"
-        android:textColor="@color/optumOrange"
+        android:textColor="@color/opOrange"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/scheduled_appointment"
         app:layout_constraintEnd_toEndOf="parent"

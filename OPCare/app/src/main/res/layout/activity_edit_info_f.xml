@@ -115,7 +115,7 @@
             android:layout_marginLeft="8dp"
             android:ems="10"
             android:inputType="textEmailAddress"
-            android:text="@string/spiderpig_optum_com"
+            android:text="@string/spiderpig_op_com"
             app:layout_constraintBottom_toBottomOf="@+id/email"
             app:layout_constraintStart_toEndOf="@+id/email" />
 

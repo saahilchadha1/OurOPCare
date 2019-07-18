@@ -1,4 +1,4 @@
-package com.example.uhghackathon;
+package com.example.hackathon;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.uhghackathon", appContext.getPackageName());
+        assertEquals("com.example.hackathon", appContext.getPackageName());
     }
 }

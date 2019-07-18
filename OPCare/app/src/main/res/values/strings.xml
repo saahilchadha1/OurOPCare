@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UHGHackathon</string>
+    <string name="app_name">Hackathon</string>
     <string name="test">TEST</string>
     <string name="title_activity_precheck_claim">PrecheckClaim</string>
     <string name="title_activity_pre_check">PreCheck</string>
@@ -14,7 +14,7 @@
     <string name="edit_info">Edit Info</string>
     <string name="sign_out">Sign Out</string>
     <string name="_09_27_1941">09/27/1941</string>
-    <string name="spiderpig_optum_com">spiderpig@optum.com</string>
+    <string name="spiderpig_op_com">spiderpig@example.com</string>
     <string name="peter">Peter</string>
     <string name="parker">Parker</string>
     <string name="male">Male</string>

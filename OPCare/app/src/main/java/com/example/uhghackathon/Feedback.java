@@ -1,4 +1,4 @@
-package com.example.uhghackathon;
+package com.example.hackathon;
 
 import android.app.Person;
 import android.content.Intent;
