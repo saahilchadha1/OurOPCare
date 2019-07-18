@@ -2,7 +2,7 @@
 
 OPCare is an Android mobile application to handle queuing of pre-check and walk-in medical clinic patients. OPCare revolutionizes the patient/provider experience by finally putting agency back into the hands of the patient. Instead of having to wait up to hours to be seen, use OPCare to reclaim your time. OPCare is healthcare in your hands.
 
-<img src="#" width="300">
+<img src="https://github.com/saahilchadha1/OurOPCare/blob/master/Welcome_Screen.png" width="300">
 
 ## Installation
 
@@ -11,7 +11,7 @@ Open the OPCare directory in [Android Studio](https://developer.android.com/stud
 ## Description
 
 ### Pitch Deck
-[Powerpoint Here](#)
+[Powerpoint Here](https://github.com/saahilchadha1/OurOPCare/blob/master/OpCare.pptx)
 
 
 ### Features
